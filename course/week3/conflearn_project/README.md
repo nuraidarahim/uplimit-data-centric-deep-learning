@@ -5,3 +5,9 @@ pip install -e .
 ```
 
 This project will implement confidence learning to identify elements for relabeling. Please download a dataset of precomputed embeddings [here](https://drive.google.com/file/d/12UtQMwfSgm4FpXSFZvLDNLO8VGxzCPYq/view?usp=sharing). Please `conflearn_project/data` with the unzipped file.
+
+# Test Accuracy
+
+MODEL W/O CONFIDENCE LEARNING  : 87.25%
+
+MODEL WITH CONFIDENCE LEARNING : 91.04% 
